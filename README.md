@@ -3,6 +3,9 @@ How to replace old displays with new tft
 ![photo_2025-01-05_13-09-00](https://github.com/user-attachments/assets/6eabbf0b-328c-4ef3-be0f-685107e1c10f)
 
 ## PCB плата:
+Файл гербер в репозитории
+![image](https://github.com/user-attachments/assets/a7b3c5ec-3ce6-49d3-87c8-d513699c20ca)
+
 
 
 ## Используемые контроллеры:
