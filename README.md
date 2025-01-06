@@ -11,17 +11,10 @@ How to replace old displays with new tft
 
 ## Важная настройка файлов конфигурации eSPI TFT
 В папке расположения самой библиотеки например %пользователь%/Documents\Arduino\libraries\TFT_eSPI
-Файл User_Setup.h раскоментировать строку
+Файл User_Setup.h закоментировать строку
 ```cpp
 ....
-//   run without the need to make any more changes for a particular hardware setup!
-//   Note that some sketches are designed for a particular TFT pixel width/height
-
-// User defined information reported by "Read_User_Setup" test & diagnostics example
-#define USER_SETUP_INFO "User_Setup"
-
-// Define to disable all #warnings in library (can be put in User_Setup_Select.h)
-//#define DISABLE_ALL_LIBRARY_WARNINGS
+//#include <User_Setup.h> 
 ....
 ```
 
