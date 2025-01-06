@@ -6,7 +6,7 @@ ISR(PCINT0_vect) {
       period[i] = currentTime - lastTime[i];
       lastTime[i] = currentTime;
     }
-    if (currentTime - lastTime[i] > 2000) {
+    if (currentTime - lastTime[i] > 1000000UL) {
       period[i] = 0;
     }
     lastState[i] = currentState; // Обновляем предыдущее состояние
